@@ -82,7 +82,7 @@ export default function Home() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 fade-in-up delay-800">
+        <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 fade-in-up delay-800">
           <div className="flex flex-col items-center text-blue-300">
             <span className="text-sm mb-2">Learn More</span>
             <div className="w-6 h-10 border-2 border-blue-300 rounded-full flex justify-center">
@@ -127,7 +127,7 @@ export default function Home() {
           <h3 className="text-2xl font-bold text-white mb-4">BioOptimize</h3>
           <p className="text-blue-300 mb-6">Research Peptides & Scientific Optimization</p>
           <p className="text-blue-400 text-sm">
-            © 2024 BioOptimize. All rights reserved. Research use only.
+            © 2025 BioOptimize. All rights reserved. Research use only.
           </p>
         </div>
       </footer>
