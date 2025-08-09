@@ -63,6 +63,7 @@ yarn dev
    - Click "New Project"
    - Import your repository
    - Vercel will automatically detect Next.js and configure the build settings
+   - **No additional configuration needed** - the project will deploy as a standard Next.js app
 
 3. Deploy:
    - Click "Deploy"
@@ -75,7 +76,12 @@ yarn dev
 npm run build
 \`\`\`
 
-2. The static files will be generated in the \`out\` directory and can be deployed to any static hosting service.
+2. Start the production server:
+\`\`\`bash
+npm start
+\`\`\`
+
+Or for static hosting, you can modify \`next.config.js\` to add \`output: 'export'\` and then use the generated files in the \`out\` directory.
 
 ## Project Structure
 
